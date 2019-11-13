@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "name-display-library-library": {
+      "components": [
+        {
+          "entrypoint": "./lib/libraries/nameDisplayLibrary/NameDisplayLibraryLibrary.js",
+          "manifest": "./src/libraries/nameDisplayLibrary/NameDisplayLibraryLibrary.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NameDisplayLibraryLibraryStrings": "lib/libraries/nameDisplayLibrary/loc/{locale}.js"
+  }
+}

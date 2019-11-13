@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bootcamp-library-component-client-side-solution",
+    "id": "dbaa4775-2ada-4610-ae86-df451bb8a461",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "skipFeatureDeployment":true
+  },
+  "paths": {
+    "zippedPackage": "solution/bootcamp-library-component.sppkg"
+  }
+}
