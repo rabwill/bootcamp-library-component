@@ -9,10 +9,19 @@
           "manifest": "./src/libraries/nameDisplayLibrary/NameDisplayLibraryLibrary.manifest.json"
         }
       ]
+    },
+    "math-calculations-library": {
+      "components": [
+        {
+          "entrypoint": "./lib/libraries/mathCalculations/MathCalculationsLibrary.js",
+          "manifest": "./src/libraries/mathCalculations/MathCalculationsLibrary.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "NameDisplayLibraryLibraryStrings": "lib/libraries/nameDisplayLibrary/loc/{locale}.js"
+    "NameDisplayLibraryLibraryStrings": "lib/libraries/nameDisplayLibrary/loc/{locale}.js",
+    "MathCalculationsLibraryStrings": "lib/libraries/mathCalculations/loc/{locale}.js"
   }
 }

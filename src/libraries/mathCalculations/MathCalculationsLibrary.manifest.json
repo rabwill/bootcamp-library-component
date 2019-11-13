@@ -1,0 +1,9 @@
+{
+  "id": "bcdeb934-498d-49c0-be9b-4b713d555b77",
+  "alias": "MathCalculationsLibrary",
+  "componentType": "Library",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2
+}

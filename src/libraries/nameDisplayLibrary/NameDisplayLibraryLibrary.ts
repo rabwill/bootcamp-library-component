@@ -1,4 +1,4 @@
- export  class NameDisplayLibraryLibrary {
+ export default class NameDisplayLibraryLibrary {
   public async DynamicallyLoadname(): Promise<string> {
     const importedName=await import('./CallNameFunctions');
     return importedName.default.DisplayName();
